@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: ms_YankiBootcoinTransaction
+  cloud:
+    config:
+      uri: http://localhost:8081
+      username: maven
+      password: m4ven
+  kafka:
+    bootstrap-servers: localhost:9092
+topic:
+  wallet:
+    name: BOOTCOIN_SENDMONEY
